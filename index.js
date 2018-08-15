@@ -26,6 +26,11 @@ function appendKitten(name)
 
 function prependKitten(name)
 {
-  var kit = kittens.unshift(name)
   
+  
+}
+
+function removeLastKitten()
+{
+  return kittens.slice(0,kittens.length-2)
 }
